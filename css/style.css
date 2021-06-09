@@ -1,5 +1,4 @@
 body {
-  background-color: #14131A;
   color: #fff;
   font-family: 'Roboto',
     sans-serif;
@@ -47,11 +46,63 @@ body {
 
 .film-description {
   margin-top: 40px;
-  position: absolute;
-  max-width: 423px;
+  width: 423px;
   height: 66px;
   font-size: 16px;
   line-height: 140%;
   color: rgba(255, 255, 255, 0.8);
+
+}
+
+.button-group {
+  align-items: center;
+  margin-top: 70px;
+}
+
+.button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-icon,
+.button-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button-text {
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 10px;
+}
+
+.button-link {
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.button-primary {
+  color: #8D0019;
+  background-color: #fff;
+}
+
+.venom {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+
+}
+
+.blood {
+  /* картинка с фоном снизу надписей */
+  background:
+    url("../img/venomKrov.png") no-repeat top right, #14131A url("../img/bacgraund.jpg") no-repeat center center /100%;
 
 }
